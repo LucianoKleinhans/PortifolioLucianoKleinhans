@@ -1,3 +1,8 @@
+// npm install express --save
+// npm install ejs --save
+// npm install -g nodemon --save #
+// npm install vanilla-tilt --save
+
 const express = require('express');
 const app = express();
 app.use(express.static('public'));
